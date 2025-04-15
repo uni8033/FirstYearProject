@@ -12,7 +12,8 @@ We believe that with proper training, our models can effectively capture most st
 
 Using a single neural network to predict complex stock prices based on historical data is feasible. This suggests that despite various influencing factors, stocks exhibit certain patterns over time. The direction of data normalization significantly impacts how the model learns. Our unconventional normalization approach avoids potential data leakage and seamlessly transitions to iterative prediction data processing.
 
-Combining iterative prediction with follow-up prediction can help eliminate unsuitable models to some extent. A common issue is models learning to use the previous day's price as the current day's output, causing a lag. Iterative prediction helps determine if the function learned by the model is correct.
+
+Combining iterative prediction (using previously predicted prices to make new predictions) with follow-up prediction (using true historical prices to make predictions) can help eliminate unsuitable models to some extent. A common issue in follow-up prediction is that models may simply use the previous day's price as the current day's output, causing a lag. Iterative prediction helps determine if the trend learned by the model is correct.
 
 ## Project Overview
 
