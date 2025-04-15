@@ -1,6 +1,6 @@
 [English](README.md) | [中文](README_zh.md)
 
-## 这是什么？
+## 简介
 
 这是 HITSZ 2020-2021 大一年度项目，我们的选题为《基于机器学习的股票预测和分析》。
 
@@ -11,7 +11,7 @@
 > 学习了此处的封装策略 [https://github.com/hichenway/stock_predict_with_LSTM/blob/master/main.py](https://github.com/hichenway/stock_predict_with_LSTM/blob/master/main.py)
 
 
-## 这个项目能做什么？
+## 项目功能
 
 我们认为我们的模型能在适当的训练方式下对于大部分股票走势做到较好的学习，即使对于少数股票会出现和趋势恰好相反的情形，我们认为这一点完全可以在更深入的分析模型来解决。
 
@@ -40,14 +40,14 @@ Normalization 方向对模型权值学习的影响是巨大的，而我们所选
 
 ![procedure](assets/procedure.png)
 
-### 本项目执行过程中的局限
+### 局限
 
 1. 对于个人开发者的使用部分，不完全支持 GUI 界面，对源代码和控制台有依赖；
 2. 数据源对网络要求较高，无论是用 api 还是调用爬虫，均需要较好的网络条件（至少能流畅的访问 GitHub 是基本条件）。
 3. 对于模型细节分析具体的方式未明朗， 对于一般的图像处理能通过 Saliency Map 等方式来对模型学习效果进行解释，但对于股票预测，让人对人自己并不能做到的事情来评价它的结果就显得比较困难。
 4. 原定的分类模型废弃，考虑可能是对上涨下跌过于武断的分类会导致模型学习失败，尚处于研究过程中。
 
-### 论文参考文献
+### 参考文献
 
 [1] 7forz. 2019. 使用 lstm 预测时间序列. https://www.7forz.com/3319/.
 
@@ -62,14 +62,3 @@ Normalization 方向对模型权值学习的影响是巨大的，而我们所选
 [6] 程序员一一涤生. 2020. 用 python 做时间序列预测四：平稳/非平稳时间序列. https://cloud.tencent.com/developer/article/1638198.
 
 [7] 肥宅\_Sean. 2018. Lstm 实现股票预测. https://blog.csdn.net/a19990412/article/details/85139058.
-
-<!-- ### 项目论文 - 部分截图
-
-![demo](assets/2021-10-31.png)
-![demo](assets/11.png)
-![demo](assets/12.png)
-
-### 用户手册 - 部分截图
-
-![demo](assets/16.png)
-![demo](assets/19.png) -->
