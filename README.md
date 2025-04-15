@@ -4,7 +4,7 @@
 
 This project was completed during our freshman year at HITSZ (2020-2021), focusing on the topic "Stock Prediction and Analysis based on Machine Learning." It served as our first exploration into deep learning and the complete workflow of an engineering project, achieving its initial goals in both aspects.
 
-The project is divided into two main parts: the implementation of the graphical user interface (GUI) and the development of various machine learning models. The Config class serves as the bridge between these two components, encapsulating all the necessary parameters for the GUI to interact with the models. We learned this encapsulation strategy from a reference project on GitHub [https://github.com/hichenway/stock_predict_with_LSTM/blob/master/main.py](https://github.com/hichenway/stock_predict_with_LSTM/blob/master/main.py).
+The project is divided into two main parts: the implementation of the graphical user interface (GUI) and the development of various machine learning models. The Config class serves as the bridge between these two components, encapsulating all the necessary parameters for the GUI to interact with the models. We learned this encapsulation strategy from a [reference project](https://github.com/hichenway/stock_predict_with_LSTM/blob/master/main.py) on GitHub.
 
 ## Project Capabilities
 
